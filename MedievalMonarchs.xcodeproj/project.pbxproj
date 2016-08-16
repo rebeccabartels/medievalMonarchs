@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43D35F8C1D6244A80017C4D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D35F8B1D6244A80017C4D6 /* AppDelegate.swift */; };
+		43D35F8E1D6244A80017C4D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D35F8D1D6244A80017C4D6 /* ViewController.swift */; };
+		43D35F911D6244A80017C4D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D35F8F1D6244A80017C4D6 /* Main.storyboard */; };
+		43D35F941D6244A80017C4D6 /* MedievalMonarchs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43D35F921D6244A80017C4D6 /* MedievalMonarchs.xcdatamodeld */; };
+		43D35F961D6244A80017C4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D35F951D6244A80017C4D6 /* Assets.xcassets */; };
+		43D35F991D6244A80017C4D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D35F971D6244A80017C4D6 /* LaunchScreen.storyboard */; };
+		43D35FAC1D6345900017C4D6 /* finishedEnglishHouses.json in Resources */ = {isa = PBXBuildFile; fileRef = 43D35FAB1D6345900017C4D6 /* finishedEnglishHouses.json */; };
+		43D35FAE1D6346990017C4D6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D35FAD1D6346990017C4D6 /* TableViewController.swift */; };
+		C9F699FC89C6B9619DA9CE77 /* Pods_MedievalMonarchs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC526A94CBC7CC7968A78FD /* Pods_MedievalMonarchs.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AB0E6E101A88FF1F9B731EA /* Pods-MedievalMonarchs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedievalMonarchs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedievalMonarchs/Pods-MedievalMonarchs.debug.xcconfig"; sourceTree = "<group>"; };
+		2B92ACD0FD6B2A67A170CAE4 /* Pods-MedievalMonarchs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedievalMonarchs.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedievalMonarchs/Pods-MedievalMonarchs.release.xcconfig"; sourceTree = "<group>"; };
+		43D35F881D6244A80017C4D6 /* MedievalMonarchs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedievalMonarchs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D35F8B1D6244A80017C4D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43D35F8D1D6244A80017C4D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43D35F901D6244A80017C4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43D35F931D6244A80017C4D6 /* MedievalMonarchs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedievalMonarchs.xcdatamodel; sourceTree = "<group>"; };
+		43D35F951D6244A80017C4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43D35F981D6244A80017C4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43D35F9A1D6244A80017C4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D35FAB1D6345900017C4D6 /* finishedEnglishHouses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = finishedEnglishHouses.json; path = ../../SideProjects/medievalMapping/medievalMapping/finishedEnglishHouses.json; sourceTree = "<group>"; };
+		43D35FAD1D6346990017C4D6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BEC526A94CBC7CC7968A78FD /* Pods_MedievalMonarchs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedievalMonarchs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43D35F851D6244A80017C4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F699FC89C6B9619DA9CE77 /* Pods_MedievalMonarchs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D35F7F1D6244A80017C4D6 = {
+			isa = PBXGroup;
+			children = (
+				43D35F8A1D6244A80017C4D6 /* MedievalMonarchs */,
+				43D35F891D6244A80017C4D6 /* Products */,
+				AF30C93070D1222B8E69454E /* Pods */,
+				FEF810AA7CCD94F722C4BE13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43D35F891D6244A80017C4D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43D35F881D6244A80017C4D6 /* MedievalMonarchs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43D35F8A1D6244A80017C4D6 /* MedievalMonarchs */ = {
+			isa = PBXGroup;
+			children = (
+				43D35F8B1D6244A80017C4D6 /* AppDelegate.swift */,
+				43D35F8D1D6244A80017C4D6 /* ViewController.swift */,
+				43D35FAD1D6346990017C4D6 /* TableViewController.swift */,
+				43D35F8F1D6244A80017C4D6 /* Main.storyboard */,
+				43D35F951D6244A80017C4D6 /* Assets.xcassets */,
+				43D35F971D6244A80017C4D6 /* LaunchScreen.storyboard */,
+				43D35F9A1D6244A80017C4D6 /* Info.plist */,
+				43D35FAB1D6345900017C4D6 /* finishedEnglishHouses.json */,
+				43D35F921D6244A80017C4D6 /* MedievalMonarchs.xcdatamodeld */,
+			);
+			path = MedievalMonarchs;
+			sourceTree = "<group>";
+		};
+		AF30C93070D1222B8E69454E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0E6E101A88FF1F9B731EA /* Pods-MedievalMonarchs.debug.xcconfig */,
+				2B92ACD0FD6B2A67A170CAE4 /* Pods-MedievalMonarchs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEF810AA7CCD94F722C4BE13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEC526A94CBC7CC7968A78FD /* Pods_MedievalMonarchs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43D35F871D6244A80017C4D6 /* MedievalMonarchs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D35F9D1D6244A80017C4D6 /* Build configuration list for PBXNativeTarget "MedievalMonarchs" */;
+			buildPhases = (
+				BC3FF681A193FF777ED51E78 /* [CP] Check Pods Manifest.lock */,
+				43D35F841D6244A80017C4D6 /* Sources */,
+				43D35F851D6244A80017C4D6 /* Frameworks */,
+				43D35F861D6244A80017C4D6 /* Resources */,
+				16CEE43FB4748C4C97AB3581 /* [CP] Embed Pods Frameworks */,
+				628A82D0B352F6C690F3BCA4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedievalMonarchs;
+			productName = MedievalMonarchs;
+			productReference = 43D35F881D6244A80017C4D6 /* MedievalMonarchs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43D35F801D6244A80017C4D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rebecca Bartels";
+				TargetAttributes = {
+					43D35F871D6244A80017C4D6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 43D35F831D6244A80017C4D6 /* Build configuration list for PBXProject "MedievalMonarchs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43D35F7F1D6244A80017C4D6;
+			productRefGroup = 43D35F891D6244A80017C4D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43D35F871D6244A80017C4D6 /* MedievalMonarchs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43D35F861D6244A80017C4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D35F991D6244A80017C4D6 /* LaunchScreen.storyboard in Resources */,
+				43D35FAC1D6345900017C4D6 /* finishedEnglishHouses.json in Resources */,
+				43D35F961D6244A80017C4D6 /* Assets.xcassets in Resources */,
+				43D35F911D6244A80017C4D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16CEE43FB4748C4C97AB3581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedievalMonarchs/Pods-MedievalMonarchs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628A82D0B352F6C690F3BCA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedievalMonarchs/Pods-MedievalMonarchs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC3FF681A193FF777ED51E78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D35F841D6244A80017C4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D35F8E1D6244A80017C4D6 /* ViewController.swift in Sources */,
+				43D35F8C1D6244A80017C4D6 /* AppDelegate.swift in Sources */,
+				43D35F941D6244A80017C4D6 /* MedievalMonarchs.xcdatamodeld in Sources */,
+				43D35FAE1D6346990017C4D6 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43D35F8F1D6244A80017C4D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D35F901D6244A80017C4D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43D35F971D6244A80017C4D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D35F981D6244A80017C4D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43D35F9B1D6244A80017C4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43D35F9C1D6244A80017C4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43D35F9E1D6244A80017C4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB0E6E101A88FF1F9B731EA /* Pods-MedievalMonarchs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedievalMonarchs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rebeccaKFBartels.MedievalMonarchs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43D35F9F1D6244A80017C4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B92ACD0FD6B2A67A170CAE4 /* Pods-MedievalMonarchs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedievalMonarchs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rebeccaKFBartels.MedievalMonarchs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43D35F831D6244A80017C4D6 /* Build configuration list for PBXProject "MedievalMonarchs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D35F9B1D6244A80017C4D6 /* Debug */,
+				43D35F9C1D6244A80017C4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D35F9D1D6244A80017C4D6 /* Build configuration list for PBXNativeTarget "MedievalMonarchs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D35F9E1D6244A80017C4D6 /* Debug */,
+				43D35F9F1D6244A80017C4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43D35F921D6244A80017C4D6 /* MedievalMonarchs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43D35F931D6244A80017C4D6 /* MedievalMonarchs.xcdatamodel */,
+			);
+			currentVersion = 43D35F931D6244A80017C4D6 /* MedievalMonarchs.xcdatamodel */;
+			path = MedievalMonarchs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43D35F801D6244A80017C4D6 /* Project object */;
+}
