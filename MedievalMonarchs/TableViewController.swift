@@ -11,7 +11,7 @@ import SwiftyJSON
 
 
 class TableViewController: UITableViewController {
-
+    
     var myArray: [Int] = []
     
     
@@ -31,17 +31,17 @@ class TableViewController: UITableViewController {
         
     }
     
-
+    
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-  
+        
         return 1
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-
+        
         return myArray.count
     }
-
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         
@@ -51,14 +51,13 @@ class TableViewController: UITableViewController {
         
         return cell
     }
-
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         let destination = segue.destinationViewController as! ViewController
         
         let senderCell = sender as! UITableViewCell
-
+        
         
         let whatIsYourText = senderCell.textLabel?.text
         
@@ -69,9 +68,9 @@ class TableViewController: UITableViewController {
             unwrappedText = whatIsYourText
             print(whatIsYourText)
         }
-
-//        destination.number = unwrappedText
-   
+        
+        //        destination.number = unwrappedText
+        
     }
     
     

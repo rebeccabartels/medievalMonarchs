@@ -13,8 +13,8 @@
 		43D35F941D6244A80017C4D6 /* MedievalMonarchs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43D35F921D6244A80017C4D6 /* MedievalMonarchs.xcdatamodeld */; };
 		43D35F961D6244A80017C4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D35F951D6244A80017C4D6 /* Assets.xcassets */; };
 		43D35F991D6244A80017C4D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D35F971D6244A80017C4D6 /* LaunchScreen.storyboard */; };
-		43D35FAC1D6345900017C4D6 /* finishedEnglishHouses.json in Resources */ = {isa = PBXBuildFile; fileRef = 43D35FAB1D6345900017C4D6 /* finishedEnglishHouses.json */; };
 		43D35FAE1D6346990017C4D6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D35FAD1D6346990017C4D6 /* TableViewController.swift */; };
+		43D35FB21D634E270017C4D6 /* finishedEnglishHouses.json in Resources */ = {isa = PBXBuildFile; fileRef = 43D35FB11D634E270017C4D6 /* finishedEnglishHouses.json */; };
 		C9F699FC89C6B9619DA9CE77 /* Pods_MedievalMonarchs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC526A94CBC7CC7968A78FD /* Pods_MedievalMonarchs.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +29,8 @@
 		43D35F951D6244A80017C4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43D35F981D6244A80017C4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43D35F9A1D6244A80017C4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43D35FAB1D6345900017C4D6 /* finishedEnglishHouses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = finishedEnglishHouses.json; path = ../../SideProjects/medievalMapping/medievalMapping/finishedEnglishHouses.json; sourceTree = "<group>"; };
 		43D35FAD1D6346990017C4D6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		43D35FB11D634E270017C4D6 /* finishedEnglishHouses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = finishedEnglishHouses.json; sourceTree = SOURCE_ROOT; };
 		BEC526A94CBC7CC7968A78FD /* Pods_MedievalMonarchs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedievalMonarchs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,8 +73,8 @@
 				43D35F8F1D6244A80017C4D6 /* Main.storyboard */,
 				43D35F951D6244A80017C4D6 /* Assets.xcassets */,
 				43D35F971D6244A80017C4D6 /* LaunchScreen.storyboard */,
+				43D35FB11D634E270017C4D6 /* finishedEnglishHouses.json */,
 				43D35F9A1D6244A80017C4D6 /* Info.plist */,
-				43D35FAB1D6345900017C4D6 /* finishedEnglishHouses.json */,
 				43D35F921D6244A80017C4D6 /* MedievalMonarchs.xcdatamodeld */,
 			);
 			path = MedievalMonarchs;
@@ -159,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43D35F991D6244A80017C4D6 /* LaunchScreen.storyboard in Resources */,
-				43D35FAC1D6345900017C4D6 /* finishedEnglishHouses.json in Resources */,
+				43D35FB21D634E270017C4D6 /* finishedEnglishHouses.json in Resources */,
 				43D35F961D6244A80017C4D6 /* Assets.xcassets in Resources */,
 				43D35F911D6244A80017C4D6 /* Main.storyboard in Resources */,
 			);
