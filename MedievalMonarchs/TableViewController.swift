@@ -69,13 +69,9 @@ class TableViewController: UITableViewController {
             print(whatIsYourText)
         }
         
-        //        destination.number = unwrappedText
+//                destination.number = unwrappedText
         
     }
-    
-    
-    
-    
-    
+     
 }
 
