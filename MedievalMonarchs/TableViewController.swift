@@ -3,18 +3,19 @@ import SwiftyJSON
 
 class TableViewController: UITableViewController {
     
+    
+    let englishHouses = JSONKey.self
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         readJsonFromFile()
+//   let json = JSON(jsonObject)
+        
+        print(englishHouses)
        
-        
-        
-        
-        let json = JSON(data: dataFromNetworking)
-        for (index, object) in json {
-            let name = object["Houses"].stringValue
-            print(name)
-        }
+
     }
     
     func readJsonFromFile() -> NSDictionary{
