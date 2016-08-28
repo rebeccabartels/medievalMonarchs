@@ -4,7 +4,7 @@ import SwiftyJSON
 class TableViewController: UITableViewController {
     
     
-    let englishHouses = JSONKey.self.Index(1)
+    let englishHouses = JSONKey.self.Key("This does Nothing")
 
     
     
