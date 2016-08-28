@@ -12,11 +12,11 @@
 		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E8F73147901B7F30D5AF9C3924364F /* Timeline.swift */; };
 		22AF6563923F325C6F58FEF13A5B162A /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5B8F6AE942BA3D7E8C0B8732349B67 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		260FE55F7534B503F55964BFCB28C9D0 /* Pods-MedievalMonarchs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B50FF8ABBB238EA92AA972A6A1511ED /* Pods-MedievalMonarchs-dummy.m */; };
-		2CE6EAEDA916D9A5DD3275CA0C709819 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBFF681209D4E5030FF4116EFD41362 /* SwiftyJSON.swift */; };
 		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC71BA52BA5094114A735CF801251599 /* Validation.swift */; };
 		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D3931E976C0FF2B3CBFD590528F74E /* NetworkReachabilityManager.swift */; };
 		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509E73B46BBAF5DFF3E6517F2940EDB /* ResponseSerialization.swift */; };
 		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF31B29D3B759DCFB762B564F77BF2 /* Manager.swift */; };
+		4316FDAD1D71EB0A0041A766 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBFF681209D4E5030FF4116EFD41362 /* SwiftyJSON.swift */; };
 		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA00B7770CE5C0311E922DD7CA72265 /* Upload.swift */; };
 		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B1E8F489400673C23422C9FECCAB8 /* Download.swift */; };
 		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C873080C03FCB4833BC2B3063E0862 /* Response.swift */; };
@@ -380,7 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57F86D3AD510EC24F9AA41A5BAA05C2 /* SwiftyJSON-dummy.m in Sources */,
-				2CE6EAEDA916D9A5DD3275CA0C709819 /* SwiftyJSON.swift in Sources */,
+				4316FDAD1D71EB0A0041A766 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

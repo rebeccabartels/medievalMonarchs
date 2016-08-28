@@ -57,37 +57,6 @@ class ViewController: UIViewController {
     
     //
 
-func readJsonFromFile() -> NSDictionary{
-    var returnDict = [:]
-    
-    if let path = NSBundle.mainBundle().pathForResource("finishedEnglishHouses", ofType: "json")
-    {
-        if let jsonData = NSData(contentsOfFile: path){
-            do{
-                let swiftJson = JSON(data: jsonData)
-                let englishArray = swiftJson["Houses"].array
-                
-                for item in englishArray!{
-                    print(item["houseName"])
-                    print(item["monarchs"].array?.generate())
-                    
-                }
-                
-            }catch{
-                print("this doesn't work")
-                
-            }
-            
-        }else{
-            print("Aint got nothing")
-        }
-        
-        print("found file")
-        
-    }
-    
-    return returnDict
-}
 
 //func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //    return self.houses.count

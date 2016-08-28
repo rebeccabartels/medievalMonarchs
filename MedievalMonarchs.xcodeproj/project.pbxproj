@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		43D35F8C1D6244A80017C4D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D35F8B1D6244A80017C4D6 /* AppDelegate.swift */; };
-		43D35F8E1D6244A80017C4D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D35F8D1D6244A80017C4D6 /* ViewController.swift */; };
 		43D35F911D6244A80017C4D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D35F8F1D6244A80017C4D6 /* Main.storyboard */; };
 		43D35F941D6244A80017C4D6 /* MedievalMonarchs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43D35F921D6244A80017C4D6 /* MedievalMonarchs.xcdatamodeld */; };
 		43D35F961D6244A80017C4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D35F951D6244A80017C4D6 /* Assets.xcassets */; };
@@ -23,7 +22,6 @@
 		2B92ACD0FD6B2A67A170CAE4 /* Pods-MedievalMonarchs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedievalMonarchs.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedievalMonarchs/Pods-MedievalMonarchs.release.xcconfig"; sourceTree = "<group>"; };
 		43D35F881D6244A80017C4D6 /* MedievalMonarchs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedievalMonarchs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D35F8B1D6244A80017C4D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43D35F8D1D6244A80017C4D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43D35F901D6244A80017C4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43D35F931D6244A80017C4D6 /* MedievalMonarchs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedievalMonarchs.xcdatamodel; sourceTree = "<group>"; };
 		43D35F951D6244A80017C4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				43D35F8B1D6244A80017C4D6 /* AppDelegate.swift */,
-				43D35F8D1D6244A80017C4D6 /* ViewController.swift */,
 				43D35FAD1D6346990017C4D6 /* TableViewController.swift */,
 				43D35F8F1D6244A80017C4D6 /* Main.storyboard */,
 				43D35F951D6244A80017C4D6 /* Assets.xcassets */,
@@ -220,7 +217,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43D35F8E1D6244A80017C4D6 /* ViewController.swift in Sources */,
 				43D35F8C1D6244A80017C4D6 /* AppDelegate.swift in Sources */,
 				43D35F941D6244A80017C4D6 /* MedievalMonarchs.xcdatamodeld in Sources */,
 				43D35FAE1D6346990017C4D6 /* TableViewController.swift in Sources */,
