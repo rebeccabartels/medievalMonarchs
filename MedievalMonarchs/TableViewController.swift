@@ -4,14 +4,14 @@ import SwiftyJSON
 class TableViewController: UITableViewController {
     
     
-    let englishHouses = JSONKey.self
+    let englishHouses = JSONKey.self.Index(1)
 
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         readJsonFromFile()
-//   let json = JSON(jsonObject)
+
         
         print(englishHouses)
        
