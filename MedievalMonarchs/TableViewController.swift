@@ -28,7 +28,6 @@ class TableViewController: UITableViewController {
                     for item in englishArray!{
                         print(item["houseName"])
                         print(item["monarchs"].array?.generate())
-                        
                     }
                     
                 }catch{
