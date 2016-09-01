@@ -13,8 +13,6 @@ class TableViewController: UITableViewController {
         readJsonFromFile()
         print(englishHouses)
     }
-    
-    
     func readJsonFromFile() -> NSDictionary{
         var returnDict = [:]
         
