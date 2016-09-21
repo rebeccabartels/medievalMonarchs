@@ -31,7 +31,6 @@ class TableViewController: UITableViewController {
                 }catch{
                     print("this doesn't work")
                 }
-                
             }else{
                 print("Aint got nothing")
             }
