@@ -30,7 +30,6 @@ class TableViewController: UITableViewController {
                     
                 }catch{
                     print("this doesn't work")
-                    
                 }
                 
             }else{
