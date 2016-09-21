@@ -27,7 +27,6 @@ class TableViewController: UITableViewController {
                         print(item["houseName"])
                 print(item["monarchs"].array?.generate())
                     }
-                    
                 }catch{
                     print("this doesn't work")
                 }
